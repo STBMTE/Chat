@@ -4,5 +4,6 @@ namespace Chat.Dtos
     {
         public int Id { get; set; }
         public IEnumerable<UserDto> Users { get; set; }
+        public ICollection<>
     }
 }
